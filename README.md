@@ -96,8 +96,8 @@ git clone https://github.com/ssol7055/HandS_SoftwareChallenge
 Assuming you already have Anaconda and VS Code installed, please run the following commands on your anaconda prompt to make and code in your virtual environment using VS code.
 ```
 conda create -n robot python=3.7
-conda install -c conda-forge toml
 conda activate robot
+conda install -c conda-forge toml
 code
 ```
 ### 3. Code your algorithm
