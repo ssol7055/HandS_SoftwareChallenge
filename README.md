@@ -24,7 +24,7 @@ A map is a n by n grid with a charger in the middle and some required energy val
 Except the charger grid, other grids have some “required energy” value assigned. If the required energy of that grid is:
 
 - **Infinite**: the grid is an obstacle. The robot cannot go to that grid.
-- **Constant energy in range [0,20]**: The grid has that amount of dust. The robot must consume that much energy to clean that grid.
+- **Constant energy in range [0,20]**: The grid has that amount of dust. The robot must consume at least that much energy to clean that grid.
 
 ### 2. Example map
 ![example map](/images/example_map.png)
