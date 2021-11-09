@@ -1,0 +1,32 @@
+title = 'example_map'
+
+[sim]
+    time_out=10000
+    skip=true
+    seed=10001
+
+[robot]
+    fuel=3000
+    energy_consumption=10
+    move_consumption=10
+    position_x=8
+    position_y=8
+    vision_sight=1
+
+[map]
+    name='example_map'
+    width=17
+    height=17
+    max_energy=20
+    num_obstacle=38
+    debug=true
+    [map.fix]
+        enable=true
+        pos_x=[1, 6, 1, 6, 14, 15, 14, 15, 14, 15, 14, 15, 14, 15, 14, 15, 5, 6, 5, 6, 5, 6, 5, 6, 15, 16, 15, 16, 15, 16, 15, 16, 1, 2, 3, 2, 3, 4]
+        pos_y=[1, 5, 5, 1, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 9, 9, 10, 10, 15, 15, 16, 16, 9, 9, 10, 10, 15, 15, 16, 16, 12, 11, 10, 15, 14, 13]
+    [map.charger]
+        enable=true
+        chance=4
+        pos_x=[8]
+        pos_y=[8]
+
