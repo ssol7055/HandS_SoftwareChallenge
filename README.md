@@ -17,9 +17,9 @@ Winners will be announced on 24.November.
 ### 1. Map overview
 A map is a n*n grid with a charger in the middle and some required energy value assigned to each grid. Components of the map are
 
-1. **Charger**
-2. **Obstacle**
-3. **Grid with dust**
+- **Charger**
+- **Obstacle**
+- **Grid with dust**
 
 Except the charger grid, other grids have some “required energy” value assigned. If the required energy of that grid is:
 
@@ -38,10 +38,10 @@ As you can see, there are three types of grids.
 	2. Obstacles (🔵)
 	3. Dust (🟥🟧🟨..)
 
-1. **Robot charger (🔋)**  
+- **Robot charger (🔋)**  
 The charger is in the middle of the room (position (8,8)).
 
-2. **Obstacle (🔵)**  
+- **Obstacle (🔵)**  
 These grids have infinite energy, meaning that the robot cannot go to these grids.  
 They can be understood as the legs of 4 pieces of furniture. The 4 pieces of furniture are as follows.
 
@@ -52,18 +52,18 @@ They can be understood as the legs of 4 pieces of furniture. The 4 pieces of fur
 
 ![furniture](/images/furniture.PNG)
 
-3. **Dust (🟥🟧🟨..)**  
+- **Dust (🟥🟧🟨..)**  
 These grids have some required energy value assigned. The values are in range [0,20] and represent the amount of dust.  
 In order to clean this dust, the robot must consume at least that much energy from its battery.
 
 ### 3. Robot  
-1. Starting position  
+- Starting position  
 	- The robot starts from the position of the charger with a full battery. The charger is located at the middle of the map (8,8)
 
-2. Battery  
+- Battery  
 	- The robot has a battery capacity of 3000. The battery can be charged  up to 3 times at the charger. The battery is charged instantly. 
 
-3. Modes
+- Modes
 	- At each turn, the robot can choose among these 4 modes.  
       
 		- `STAY`:  The robot stays in current grid. This is the initial mode at the start of simulation.
