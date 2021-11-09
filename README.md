@@ -106,6 +106,8 @@ conda activate robot
 conda install -c conda-forge toml
 code
 ```
+If you have no experience with Anaconda or VS Code, please refer to the "setting.mp4" video in this github repository.
+
 ### 3. Code your algorithm
 You can code your algorithm in `simul.py`. If you want to define any global variables, define them in `__init__` function.  Code your algorithm in `algorithms` function.
 - Caution: do not change any arguments and returns in `algorithms` function.
