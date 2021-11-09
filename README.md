@@ -15,7 +15,7 @@ Winners will be announced on 24.November.
 
 ## 2. Details
 ### 1. Map overview
-A map is a n*n grid with a charger in the middle and some required energy value assigned to each grid. Components of the map are
+A map is a n by n grid with a charger in the middle and some required energy value assigned to each grid. Components of the map are
 
 - **Charger**
 - **Obstacle**
@@ -29,7 +29,7 @@ Except the charger grid, other grids have some “required energy” value assig
 ### 2. Example map
 ![example map](/images/example_map.png)
 
-The example map included in the simulator has 17*17 grids.  
+The example map included in the simulator has 17 by 17 grids.  
 We will now think of this map as a room.
 
 As you can see, there are three types of grids.
@@ -62,6 +62,11 @@ In order to clean this dust, the robot must consume at least that much energy fr
 
 - Battery  
 	- The robot has a battery capacity of 3000. The battery can be charged  up to 3 times at the charger. The battery is charged instantly. 
+
+- Sight
+	- Initially, the map information (location of obstacle, amount of dust, etc.) is hidden. At this point, all the robot can see is the 3 by 3 square around it.
+	- Each time the robot changes its position, it acquires additional information about the 3 by 3 square around it.
+	- If the robot has never seen a particular grid yet, the required energy of that grid is "None".  
 
 - Modes
 	- At each turn, the robot can choose among these 4 modes.  
