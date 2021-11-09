@@ -84,7 +84,15 @@ If you get stuck in an infinite loop, the code will automatically terminate afte
 ***
 
 ## 3. Simulator guideline
-### 1. Setting environment
+### 1. Download the simulator
+You have 2 options.
+- clone the git repository
+```
+git clone https://github.com/ssol7055/HandS_SoftwareChallenge
+```
+- download the zip file provided with this instruction video
+         
+### 2. Setting environment
 Assuming you already have Anaconda and VS Code installed, please run the following commands on your anaconda prompt to make and code in your virtual environment using VS code.
 ```
 conda create -n robot python=3.7
@@ -92,7 +100,7 @@ conda install -c conda-forge toml
 conda activate robot
 code
 ```
-### 2. Code your algorithm
+### 3. Code your algorithm
 You can code your algorithm in `simul.py`. If you want to define any global variables, define them in `__init__` function.  Code your algorithm in `algorithms` function.
 - Caution: do not change any arguments and returns in `algorithms` function.
 ```python
@@ -103,7 +111,7 @@ class UserRobot(VacuumCleaner):
     def algorithms(...):
         # Write your algorithm in here, but do not change input arguments and returns.
 ```
-### 3. Run the simulator
+### 4. Run the simulator
 Run `main.py` to simulate your robot.
 - Simulation
 ```
@@ -155,7 +163,7 @@ Robot, postion:
 [0, 0]->[0, 0]->(1, 0)->(1, 0)->(2, 0)->(3, 0)->(4, 0)->(4, 0)->(4, 0)->(5, 0)->(6, 0)->(6, 0)->(7, 0)->(7, 0)->(7, 0)->(7, 1)->(7, 2)->(7, 3)->(7, 4)->(7, 5)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)->(7, 6)*
 Evaluate : 23.396226415094333 %
 ```
-### 3. Viewer guideline
+### 5. Viewer guideline
 - 🟪: not detected
 - 🟥: 13.33 ~ 20 dust
 - 🟧: 6.66 ~ 13.33 dust
