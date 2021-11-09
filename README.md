@@ -95,7 +95,8 @@ You have 2 options.
 ```
 git clone https://github.com/ssol7055/HandS_SoftwareChallenge
 ```
-- download the zip file provided with this instruction video
+- download the zip file provided in the link below
+	- https://drive.google.com/drive/folders/137wgPzpYsJf2TBS93FO72gqy4HzZ3jQT?usp=sharing
          
 ### 2. Setting environment
 Assuming you already have Anaconda and VS Code installed, please run the following commands on your anaconda prompt to make and code in your virtual environment using VS code.
