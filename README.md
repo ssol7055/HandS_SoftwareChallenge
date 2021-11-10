@@ -99,14 +99,14 @@ git clone https://github.com/ssol7055/HandS_SoftwareChallenge
 	- https://drive.google.com/drive/folders/137wgPzpYsJf2TBS93FO72gqy4HzZ3jQT?usp=sharing
          
 ### 2. Setting environment
-Assuming you already have Anaconda and VS Code installed, please run the following commands on your anaconda prompt to make and code in your virtual environment using VS code.
+- Assuming you already have Anaconda and VS Code installed, please run the following commands on your anaconda prompt to make and code in your virtual environment using VS code.
 ```
 conda create -n robot python=3.7
 conda activate robot
 conda install -c conda-forge toml
 code
 ```
-If you have no experience with Anaconda or VS Code, please refer to the "setting.pdf" file in the link below    
+- If you have no experience with Anaconda or VS Code, please refer to the "setting.pdf" file in the link below    
 	- https://drive.google.com/drive/folders/137wgPzpYsJf2TBS93FO72gqy4HzZ3jQT?usp=sharing
 ### 3. Code your algorithm
 You can code your algorithm in `simul.py`. If you want to define any global variables, define them in `__init__` function.  Code your algorithm in `algorithms` function.
