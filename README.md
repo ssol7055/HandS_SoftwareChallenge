@@ -106,7 +106,7 @@ conda activate robot
 conda install -c conda-forge toml
 code
 ```
-If you have no experience with Anaconda or VS Code, please refer to the "setting.pdf" file in the link below.
+If you have no experience with Anaconda or VS Code, please refer to the "setting.pdf" file in the link below.          
 	- https://drive.google.com/drive/folders/137wgPzpYsJf2TBS93FO72gqy4HzZ3jQT?usp=sharing
 
 ### 3. Code your algorithm
