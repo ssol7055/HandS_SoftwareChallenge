@@ -1,4 +1,8 @@
 ***
+
+https://user-images.githubusercontent.com/62207384/141055355-ea802f4c-a53f-4c50-b949-6d91dd47cbe8.mp4
+
+***
 ## 1. Introduction
 ### 1. Goal
 Develop an algorithm that cleans the given room within a limited battery. Try to clean the room as much as possible & as fast as possible!
